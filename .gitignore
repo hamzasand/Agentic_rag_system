@@ -1,0 +1,117 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+myenv/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+
+# Hugging Face cache
+.cache/
+huggingface/
+.huggingface/
+
+# ==============================
+# Datasets
+# ==============================
+data/
+datasets/
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+
+# Keep small sample files if needed
+!data/sample/
+!data/sample/*.csv
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# FastAPI / Application
+# ==============================
+uploads/
+outputs/
+temp/
+tmp/
+
+# ==============================
+# Testing / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Type checking / Linters
+# ==============================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ==============================
+# IDEs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Docker
+# ==============================
+docker-compose.override.yml
+
+# ==============================
+# Build / Packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# Experiment / Training outputs
+# ==============================
+runs/
+wandb/
+mlruns/
+tensorboard/
+checkpoints/
+artifacts/
+
+# ==============================
+# Database
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
